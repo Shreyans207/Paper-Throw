@@ -15,7 +15,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paper = new Paper(100,100,40);
+	paper = new Paper(100,400,40);
 
 	ground=createSprite(width/2, height-35, width,10,);
 	ground.shapeColor=color(255);
